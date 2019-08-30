@@ -1,4 +1,4 @@
-package pro.ofitserov.stepik._1_introduction._0_Hello_World
+package pro.ofitserov.kotlin._1_introduction._0_Hello_World
 
 /*
 Simple Functions

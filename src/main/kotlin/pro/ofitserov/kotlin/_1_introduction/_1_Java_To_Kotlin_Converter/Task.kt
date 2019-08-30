@@ -1,4 +1,4 @@
-package pro.ofitserov.stepik._1_introduction._1_Java_To_Kotlin_Converter
+package pro.ofitserov.kotlin._1_introduction._1_Java_To_Kotlin_Converter
 
 /*
 We have a handy tool for Java developers: Java to Kotlin converter.
