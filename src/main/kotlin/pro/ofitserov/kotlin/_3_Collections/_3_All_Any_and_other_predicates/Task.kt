@@ -1,5 +1,16 @@
 package pro.ofitserov.kotlin._3_Collections._3_All_Any_and_other_predicates
 
+/*All, Any and other predicates
+
+Implement all the functions below using all, any, count, find.
+
+val numbers = listOf(-1, 0, 2)
+val isZero: (Int) -> Boolean = { it == 0 }
+numbers.any(isZero) == true
+numbers.all(isZero) == false
+numbers.count(isZero) == 1
+numbers.find { it > 0 } == 2*/
+
 // Return true if all customers are from the given city
 fun Shop.checkAllCustomersAreFrom(city: City): Boolean = customers.all { it.city == city }
 
