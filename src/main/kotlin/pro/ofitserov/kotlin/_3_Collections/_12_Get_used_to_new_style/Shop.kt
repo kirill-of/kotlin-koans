@@ -1,4 +1,4 @@
-package pro.ofitserov.kotlin._3_Collections._Test_Data
+package pro.ofitserov.kotlin._3_Collections._12_Get_used_to_new_style
 
 data class Shop(val name: String, val customers: List<Customer>)
 

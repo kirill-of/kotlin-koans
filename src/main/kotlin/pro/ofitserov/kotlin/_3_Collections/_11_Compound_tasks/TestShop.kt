@@ -1,4 +1,4 @@
-package pro.ofitserov.kotlin._3_Collections._Test_Data
+package pro.ofitserov.kotlin._3_Collections._11_Compound_tasks
 
 //products
 val idea = Product("IntelliJ IDEA Ultimate", 199.0)
@@ -43,33 +43,17 @@ val shop = shop(
     customer(
         lucas, Canberra,
         order(reSharper),
-        order(
-            reSharper,
-            dotMemory,
-            dotTrace
-        )
+        order(reSharper, dotMemory, dotTrace)
     ),
-    customer(
-        cooper,
-        Canberra
-    ),
+    customer(cooper, Canberra),
     customer(
         nathan, Vancouver,
-        order(
-            rubyMine,
-            webStorm
-        )
+        order(rubyMine, webStorm)
     ),
     customer(
         reka, Budapest,
-        order(
-            idea,
-            isDelivered = false
-        ),
-        order(
-            idea,
-            isDelivered = false
-        ),
+        order(idea, isDelivered = false),
+        order(idea, isDelivered = false),
         order(idea)
     ),
     customer(
@@ -84,29 +68,12 @@ val shop = shop(
 
 val customers: Map<String, Customer> = shop.customers.map { Pair(it.name, it) }.toMap()
 
-val orderedProducts = setOf(
-    idea,
-    reSharper,
-    dotTrace,
-    dotMemory,
-    rubyMine,
-    webStorm
-)
+val orderedProducts = setOf(idea, reSharper, dotTrace, dotMemory, rubyMine, webStorm)
 
-val sortedCustomers = listOf(
-    cooper,
-    nathan,
-    bajram,
-    asuka,
-    lucas,
-    reka
-).map { customers[it] }
+val sortedCustomers = listOf(cooper, nathan, bajram, asuka, lucas, reka).map { customers[it] }
 
 val groupedByCities = mapOf(
-    Canberra to listOf(
-        lucas,
-        cooper
-    ),
+    Canberra to listOf(lucas, cooper),
     Vancouver to listOf(nathan),
     Budapest to listOf(reka),
     Ankara to listOf(bajram),

@@ -1,8 +1,8 @@
 package pro.ofitserov.kotlin._3_Collections._4_FlatMap
 
-import pro.ofitserov.kotlin._3_Collections._Test_Data.Customer
-import pro.ofitserov.kotlin._3_Collections._Test_Data.Product
-import pro.ofitserov.kotlin._3_Collections._Test_Data.Shop
+import pro.ofitserov.kotlin._3_Collections._2_Filter_map.Customer
+import pro.ofitserov.kotlin._3_Collections._2_Filter_map.Product
+import pro.ofitserov.kotlin._3_Collections._2_Filter_map.Shop
 
 /*FlatMap
 
