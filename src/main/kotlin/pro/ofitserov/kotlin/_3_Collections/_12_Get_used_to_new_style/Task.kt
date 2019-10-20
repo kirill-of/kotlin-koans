@@ -1,0 +1,2 @@
+package pro.ofitserov.kotlin._3_Collections._12_Get_used_to_new_style
+

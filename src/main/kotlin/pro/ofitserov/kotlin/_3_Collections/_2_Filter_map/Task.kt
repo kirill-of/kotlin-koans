@@ -1,5 +1,9 @@
 package pro.ofitserov.kotlin._3_Collections._2_Filter_map
 
+import pro.ofitserov.kotlin._3_Collections._3_All_Any_and_other_predicates.City
+import pro.ofitserov.kotlin._3_Collections._3_All_Any_and_other_predicates.Customer
+import pro.ofitserov.kotlin._3_Collections._3_All_Any_and_other_predicates.Shop
+
 /*Filter; map
 
 Implement extension functions Shop.getCitiesCustomersAreFrom() and Shop.getCustomersFrom() using functions map and filter.
