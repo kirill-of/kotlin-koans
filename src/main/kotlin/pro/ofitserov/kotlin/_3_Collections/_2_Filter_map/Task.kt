@@ -1,8 +1,8 @@
 package pro.ofitserov.kotlin._3_Collections._2_Filter_map
 
-import pro.ofitserov.kotlin._3_Collections._3_All_Any_and_other_predicates.City
-import pro.ofitserov.kotlin._3_Collections._3_All_Any_and_other_predicates.Customer
-import pro.ofitserov.kotlin._3_Collections._3_All_Any_and_other_predicates.Shop
+import pro.ofitserov.kotlin._3_Collections._Test_Data.City
+import pro.ofitserov.kotlin._3_Collections._Test_Data.Customer
+import pro.ofitserov.kotlin._3_Collections._Test_Data.Shop
 
 /*Filter; map
 

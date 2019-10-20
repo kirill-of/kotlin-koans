@@ -1,5 +1,8 @@
 package pro.ofitserov.kotlin._3_Collections._1_Introduction
 
+import pro.ofitserov.kotlin._3_Collections._Test_Data.Customer
+import pro.ofitserov.kotlin._3_Collections._Test_Data.Shop
+
 /*Introduction
 
 This part was inspired by GS Collections Kata.
