@@ -1,0 +1,1 @@
+package pro.ofitserov.kotlin._4_Properties._2_Lazy_property
